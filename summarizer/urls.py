@@ -19,4 +19,6 @@ from .views import *
 
 urlpatterns = [
     path('', index),
+    path('summarize',summarize,name='summarize'),
+
 ]
